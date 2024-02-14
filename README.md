@@ -6,7 +6,7 @@ This repository contains code for retrieving token prices on the Ethereum blockc
 
 1. **Clone Repository**: Clone this repository to your local machine.
  ```bash
-npm install
+git clone <repo_link>
 ```
 
 3. **Install Dependencies**: Run the following command to install the necessary dependencies:
