@@ -18,7 +18,7 @@ git clone <repo_link>
    node index.js
    ```
 ### Add Custom Token
-1. **Change Token Details**: in index.js file.
+1. **Add Token Details**: in index.js file.
 ```bash
    await checkPair({
       inputTokenSymbol: 'ETH',
@@ -27,4 +27,12 @@ git clone <repo_link>
       outputTokenAddress: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
       inputAmount: web3.utils.toWei('1', 'ETHER')
     })
+
+   await checkPair({
+         inputTokenSymbol: 'ETH',
+         inputTokenAddress: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+         outputTokenSymbol: 'USDT',
+         outputTokenAddress: 'USDT CONTRACT ADDRESS',
+         inputAmount: web3.utils.toWei('1', 'ETHER')
+       })
 ```
