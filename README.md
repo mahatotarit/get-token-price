@@ -32,7 +32,7 @@ git clone <repo_link>
          inputTokenSymbol: 'ETH',
          inputTokenAddress: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
          outputTokenSymbol: 'USDT',
-         outputTokenAddress: 'USDT CONTRACT ADDRESS',
+         outputTokenAddress: 'USDT_CONTRACT_ADDRESS',
          inputAmount: web3.utils.toWei('1', 'ETHER')
        })
 ```
